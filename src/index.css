@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #334155;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #64748b;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Custom slider styles */
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #3b82f6;
+  cursor: pointer;
+  border: 2px solid #1e293b;
+  box-shadow: 0 0 0 1px #475569;
+}
+
+.slider::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #3b82f6;
+  cursor: pointer;
+  border: 2px solid #1e293b;
+  box-shadow: 0 0 0 1px #475569;
+}
+
+/* Smooth animations */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
