@@ -4,7 +4,7 @@ A comprehensive vulnerability management platform that combines OWASP Risk Ratin
 
 ## 🚀 Live Demo
 
-**[View Live Application](https://unrivaled-trifle-ba3ad6.netlify.app)**
+**[View Live Application](https://owaspriskcalculator.netlify.app)**
 
 ## 📋 Table of Contents
 

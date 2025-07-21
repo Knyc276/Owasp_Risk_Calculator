@@ -17,7 +17,7 @@ This comprehensive guide will help you get the most out of VulnGuard Pro's vulne
 
 ### First Time Setup
 
-1. **Access the Application**: Navigate to [VulnGuard Pro](https://unrivaled-trifle-ba3ad6.netlify.app)
+1. **Access the Application**: Navigate to [VulnGuard Pro](https://owaspriskcalculator.netlify.app)
 2. **Familiarize with the Interface**: The application uses a tabbed interface with five main sections
 3. **Start with the Dashboard**: Get an overview of your current security posture
 4. **Configure Your First Scan**: Set up vulnerability scanning for your network
